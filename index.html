@@ -11,6 +11,30 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+  <style>
+div.background {
+    width: 500px;
+    height: 250px;
+    background: url(cover.jpg) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    width: 400px;
+    height: 180px;
+    margin: 30px 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 30px 40px;
+    font-weight: bold;
+    color: #000000;
+}
+</style>  
   </head>
   <body>
     <div class="wrapper">
@@ -60,7 +84,13 @@
       <section>
       
         <h3>
-        <img src="cover.jpg" alt="telephone" style="width:604px;height:228px">  
+        <div class="background">
+  <div class="transbox">
+    <p>MOdels for Modality Annotation</p>
+  </div>
+</div>
+
+<!--        <img src="cover.jpg" alt="telephone" style="width:604px;height:228px">  -->
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>
 MOdels for Modality Annotation</h3>
 <h4>Workshop co-located with IWCS 2015 - London, 14 April 2015</h4>
