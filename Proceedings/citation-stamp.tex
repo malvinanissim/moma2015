@@ -1,0 +1,9 @@
+\newcommand{\citeinfo}[2]{
+  \AddToShipoutPicture{%
+    \setlength{\unitlength}{1mm}
+%%% EDIT NAME, DATES, LOCATION %%%%%%%%%%%%%%%%%%%%%%%%%%
+    \put(105,11){\makebox(0,0){\footnotesize {\em Proceedings of the IWCS Workshop on Models for Modality Annotation, MOMA 2015}, 
+	\ifthenelse{\equal{#1}{#2}}{page #1}{pages #1--#2},}}
+     \put(105,8){\makebox(0,0){\footnotesize London, UK, April 14 2015. \copyright 2015 Association for Computational Linguistics}}
+  }
+}

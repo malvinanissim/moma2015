@@ -1,0 +1,3 @@
+\contentsline {chapter}{ Towards a Unified Approach to Modality Annotation in Portuguese. \\ \textit {Luciana Beatrix \'Avila, Am\'alia Mendes, and Iris Hendrickx} }{1}
+\contentsline {chapter}{ A hedging annotation scheme focused on epistemic phrases for informal language.\\ \textit {Liliana Mamani Sanchez and Carl Vogel} }{1}
+\contentsline {chapter}{ Annotating modals with GraphAnno, a configurable lightweight tool for multi-level annotation\\ \textit {Volker Gast, Lennart Bierkandt, and Christoph Rzymski} }{1}
